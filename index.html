@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<script src="script.js" defer></script>
+	<title>Портфолио</title>
+</head>
+<body>
+	<header>
+		<div class="central-container">
+			<span class="logo"><a href="#">/My Portfolio></a></span>
+			<nav>
+				<ul class="header_nav">
+					<li class="header_nav_item"><a href="#about-me-section">ОБО МНЕ</a></li>
+					<li class="header_nav_item"><a href="#skills">ЧТО Я ДЕЛАЮ</a></li>
+					<li class="header_nav_item"><a href="#portfolio-section">ПОРТФОЛИО</a></li>
+					<li class="header_nav_item"><a href="#price-section">О СТОИМОСТИ</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="hamburger-menu">
+  			<input id="menu__toggle" type="checkbox">
+  			<label class="menu__btn" for="menu__toggle">
+    		<span></span>
+  			</label>
+		    <ul class="menu__box">
+		    	<li><a class="menu__item" href="#about-me-section">Обо мне</a></li>
+		    	<li><a class="menu__item" href="#skills">Что я делаю</a></li>
+		    	<li><a class="menu__item" href="#portfolio-section">Портфолио</a></li>
+		    	<li><a class="menu__item" href="#price-section">О стоимости</a></li>
+		    	
+		    </ul>
+		</div>
+	</header>
+	<main>
+	<section class="intro">
+		<div>
+			<h1>Владислав<br>Зацаринный</h1>
+			<span><Сайт-портфолио
+ 			фронтенд разработчика>
+ 			<br>P.S. Я делаю сайты
+ 			</span>
+		</div>
+	</section>
+
+	<section class="about-me" id="about-me-section">
+		<div class="central-container">
+			<h2>Немного фактов обо мне:</h2>
+			<hr>
+			<div class="about-me_block-wrapper">
+				<div class="about-me_first-block">
+					<div class="about-me_photo-ellipse">
+						<img src="img/Photo.svg" alt="my-photo">
+					</div>
+				</div>
+				<div class="about-me_second-block">
+					<span>Я - фронтенд разработчик и верстальщик сайтов из г. Ростов-на-Дону, Россия</span>
+					<ul>
+						<li>Мне 18 лет</li>
+						<li>Год работаю в сфере разработки сайтов</li>
+						<li>Моя профессия - мое хобби</li>
+						<li>Веду активный образ жизни</li>
+						<li>Люблю читать книги</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="skills" id="skills">
+		<div class="central-container">
+			<h2>Что я делаю и чем могу помочь:</h2>
+			<hr>
+			<div class="skills_wrapper">
+				<div class="skill-elem">
+					<img src="img/skills_img1.svg" alt="site image">
+					<div class="skill-elem_untitle">Верстка лендинг страниц и многостраничных сайтов </div>
+				</div>
+				<div class="skill-elem">
+					<img src="img/skills_img2.svg" alt="devices">
+					<div class="skill-elem_untitle">Адаптивная и кроссбраузерная верстка</div>
+				</div>
+				<div class="skill-elem">
+					<img src="img/skills_img3.svg" alt="build a site">
+					<div class="skill-elem_untitle">Работа с существующей версткой</div>
+				</div>
+				<div class="skill-elem">
+					<img src="img/skills_img4.svg" alt="document">
+					<div class="skill-elem_untitle">Точная и аккуратная верстка из под макета</div>
+				</div>
+			</div>
+		</div>
+	</section> 
+
+	<section class="portfolio" id="portfolio-section">
+		<div class="central-container">
+			<h2>Портфолио моих работ:</h2>
+			<hr> 
+			
+			 <div class="portfolio_wrapper">
+				<div class="portfolio_work"></div>
+				<div class="portfolio_work"></div>
+				<div class="portfolio_work"></div>
+			</div>
+		</div>
+	</section>
+	<section class="price-section" id="price-section">
+		<h2 id="price-section">Информация о стоимости и контакты:</h2>
+		<hr>
+		<div class="price-block">
+			<div class="first-price-block">Свяжитесь со мной любым перечисленным, удобным вам способом.
+				Обговорим детали проекта и цену. Для меня удобнее будет “ВКонтакте”, там я нахожусь чаще всего, но вы можете написать на почту или в “Телеграмм”!
+				<br><br>
+				<br>Обращайтесь в любое время - в течение дня отвечу.
+				<br><br>
+				<br>По поводу работы:
+				<br>На данном этапе я делаю свою работу <b>не дорого</b>. В стоимость уже входит адаптация под различные экраны и браузеры.
+				<br>Цена будет не высокая, т.к. Я нуждаюсь в работах для своего портфолио.
+				<br><br>
+				<br>Чтобы уточнить цену, мне необходимо увидеть объем работы и оценить ее, для этого отправьте мне макет/дизайн будущего сайта.
+			</div>
+			<div class="second-price-block">
+				<div>
+					<img src="img/mail_icon.svg" alt="mail_logo">
+					<div><a href="mailto:zacarinnyjvladislav@gmail.com">zacarinnyjvladislav@gmail.com</a></div>
+				</div>
+				<div>
+					<img src="img/vk_icon.svg" alt="vk_logo">
+					<div><a href="https://vk.com/pelmeshvlad" target="_blank">vk.com/pelmeshvlad</a></div>
+				</div>
+				<div>
+					<img src="img/telegram_logo.svg" alt="telegram_logo">
+					<div>@vlad_Zatsarinnyj</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+	</main>
+	<footer>
+		<div class="central-container">
+			<div class="footer_first-section">
+				<div>
+					<span class="logo"><a href="#">/My Portfolio></a></span><br>
+					<div>Резиновая, адаптивная<br>и кроссбраузерная верстка<br>сайтов по макетам на заказ. </div>			
+				</div>
+				<div>
+					Навигация: <br><br>	
+					<a href="#about-me-section">- ОБО МНЕ </a><br>
+					<a href="#skills">- ЧТО Я ДЕЛАЮ </a><br>
+					<a href="#portfolio-section">- ПОРТФОЛИО </a><br>
+					<a href="#price-section">- О СТОИМОСТИ </a><br>
+				</div>
+				<div>
+					Контакты: <br><br>	
+					Почта: zacarinnyjvladislav@gmail.com <br>
+					Вконтакте: vk.com/pelmeshvlad <br>
+					Телеграм: @vlad_Zatsarinnyj <br>
+					<br>
+				</div>
+			</div>
+			<div class="footer_second-section">
+				<b>©Владислав Зацаринный 2020</b>
+			</div>
+		</div>	
+	</footer> 
+</body>
+</html>
